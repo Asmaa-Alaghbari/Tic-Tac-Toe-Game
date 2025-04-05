@@ -10,7 +10,7 @@ A classic two-player strategy game where opponents alternate turns marking space
 
 - **Author**: Asmaa Alaghbari
 - **Start date**: 04/04/2025
-- **Last update**: 04/04/2025
+- **Last update**: 05/04/2025
 - **Programming Language**: Python 3.x
 - **Tool Used**: Visual Studio Code
 - **Game Title**: Tic Tac Toe
@@ -26,11 +26,11 @@ A classic two-player strategy game where opponents alternate turns marking space
 ## Features
 
 - Player vs Computer gameplay
-- Input validation for player moves
+- Intelligent computer move selection
 - Clear display of the game board
 - Win, lose, or draw messages
 - Option to play again
-- Easy to understand and modify code
+- Simple yet extendable code for improvements
 
 ## How to Play
 
@@ -71,15 +71,16 @@ A classic two-player strategy game where opponents alternate turns marking space
 
 ## Code Structure
 
-| File/Function     | Description                         |
-| ----------------- | ----------------------------------- |
-| `tic_tac_toe.py`  | Main game file                      |
-| `board`           | List representing the 3x3 game grid |
-| `display_board()` | Prints the current game state       |
-| `player_move()`   | Handles player input and validation |
-| `check_winner()`  | Checks win conditions               |
-| `play_game()`     | Main game loop                      |
-| `play_again()`    | Handles game restart logic          |
+| File/Function     | Description                          |
+| ----------------- | ------------------------------------ |
+| `tic_tac_toe.py`  | Main game file                       |
+| `board`           | List representing the 3x3 game grid  |
+| `display_board()` | Prints the current game state        |
+| `player_move()`   | Handles player input and validation  |
+| `computer_move()` | AI makes a move using basic strategy |
+| `check_winner()`  | Checks win conditions                |
+| `play_game()`     | Main game loop                       |
+| `play_again()`    | Handles replay logic                 |
 
 ## References
 
